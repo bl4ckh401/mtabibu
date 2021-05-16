@@ -1,0 +1,108 @@
+
+.App{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 80%;
+  min-height: 100vh;
+}
+.App-header{
+  background-color: lawngreen;
+  
+  }
+  .LoginForm{
+   background-color: lawngreen;
+   max-width: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border: solid 2px black;
+
+  }
+  .navList{
+    display: block;
+    float: left;
+    border: solid 2px black;
+    justify-content: center;
+    height: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+    overflow: hidden;
+
+
+
+  }
+  .carousel{
+    max-height: 30%;
+
+  }
+  .symptoms{
+    border: 1px solid blue;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    min-height: 200px;
+    max-width: 40%;
+    overflow: hidden;
+    text-align: center;
+    justify-self: right;
+
+  }
+  .btn-submit{
+    border-radius: 1rem;
+    background-color: green;
+
+  }
+.ft-main{
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-height: 30%;
+
+}
+.ft-main-item{
+  min-width: 12.5rem;
+}
+.ft-form{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 12.5rem;
+
+}
+input[type='email']{
+  border: rgb(30, 189, 210);
+  background-color: rgb(30, 189, 210);
+  padding: 0.3rem;
+  margin-top: auto;
+}
+input[type='text']{
+  border: rgb(30, 189, 210);
+  background-color: rgb(30, 189, 210);
+  padding: 0.3rem;
+  margin-top: auto;
+}
+input[type='password']{
+  border: rgb(30, 189, 210);
+  background-color: rgb(30, 189, 210);
+  padding: 0.3rem;
+  margin-top: auto;
+}
+input[type='submit']{
+  border: rgb(30, 72, 210);
+  background-color: rgb(30, 159, 210);
+  padding: 0.625rem;
+  margin-top: auto;
+  cursor: pointer;
+}
+.ft-social{
+  padding: 0 1.25rem;
+}
+.ft-social-list{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
